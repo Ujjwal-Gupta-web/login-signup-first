@@ -3,7 +3,7 @@ const fs=require('fs');
 const app=express();
 const Log= require('./details');
 const bcrypt= require('bcrypt');
-const port=7000;
+const port=process.env.PORT || 7000;
 
 
 // getting-started mongoose.js
