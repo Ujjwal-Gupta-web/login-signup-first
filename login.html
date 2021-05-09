@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: #b9d7e9;
+        }
+        a{
+            
+            text-decoration: none;
+            color:black;
+            background: white;
+        border:1px rgb(61, 59, 59) solid;
+        padding:8px;
+        border-radius: 10px 10px 10px 10px;
+        }
+#filldet{
+    text-align: center;
+    width: 200px;
+    height:250px;
+    padding:15px;
+    border-radius: 10px 10px 10px 10px;
+    background:linear-gradient(white, #daf1fe);
+    box-shadow:5px 5px 10px grey;
+    border:black px solid;
+}
+    </style>
+</head>
+<body>
+    <br>
+    <a href="/">Back to home</a>
+    <br><br>
+    <hr><br><br>
+    <center><div id="filldet">
+    <h3>Login in to you account</h3>
+    <br>
+    <form action="/login" method="POST">
+        <!-- Enter you email -->
+        <br>
+        <input type="email" name="email" placeholder="Enter your email">
+        <br>
+        <!-- Enter your password -->
+        <br>
+        <input type="password" name="pass" placeholder="Enter your password">
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+
+</div></center>
+</body>
+</html>

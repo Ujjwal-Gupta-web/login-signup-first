@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <style>
+        body{
+            background-color: #b9d7e9;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+            margin:5px;
+            text-decoration: none;
+            color:black;
+            background: white;
+        border:1px rgb(61, 59, 59) solid;
+        padding:8px;
+        border-radius: 10px 10px 10px 10px;
+        }
+        #inNav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #fillform{
+            text-align: center;
+    width: 250px;
+    height:420px;
+    padding:7.5px;
+    border-radius: 10px 10px 10px 10px;
+    background:linear-gradient(white, #daf1fe);
+    box-shadow:5px 5px 10px grey;
+    border:black px solid;
+        }
+    </style>
+</head>
+<body>
+    <div id='inNav'>
+        <a href="/">Back to home</a>
+        <a href="/login">Login</a>
+    </div>
+    <hr/>
+    
+    <center><div id='fillform'>
+        <h2>Sign Up form</h2>
+        <form action="/signup" method="POST">
+
+            
+            <br>
+            <input type="text" name="name" id="" placeholder="Name">
+            <br><br>
+            
+            <br>
+            <input type="email" name="email" id="" placeholder="email">
+            <br><br>
+            
+            <br>
+            <input type="password" name="pass" id="" placeholder="password">
+            <br><br>
+            
+            <br>
+            <input type="password" name="cpass" id="" placeholder="confirm password">
+            <br><br>
+            
+            <br>
+            <input type="text" name="mob" id="" placeholder="Mobile No">
+            <br><br>
+            
+            <br>
+            <input type="submit" value="SignUp">
+
+        </form>
+        
+    </div></center>
+    
+    <hr>
+    <h4>Note:</h4>
+            <ul>
+                <li>Same mobile number and email will not be accepted again for registeration.</li>
+                <li>In case, you fill it , you will encounter an error.</li>
+            </ul>
+
+</body>
+</html>
